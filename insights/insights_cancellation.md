@@ -4,10 +4,10 @@
 
 ## Key Findings
 
-* Out of **33.46K bookings**, approximately **8.98K rides were cancelled**, resulting in a **26.83% cancellation rate**.
+* Out of *49.99K bookings**, approximately **13.4K rides were cancelled**, resulting in a **26.82% cancellation rate**.
 * Driver cancellations accounted for a larger share of cancellations than customer cancellations.
-* The leading driver cancellation reason was **"More than permitted passengers"**, contributing **25.98%** of driver cancellations.
-* The leading customer cancellation reason was **"Driver is not moving towards pickup location"**, accounting for **21.55%** of customer cancellations.
+* The leading driver cancellation reason was **"More than permitted passengers"**, contributing **26.14%** of driver cancellations.
+* The leading customer cancellation reason was **"Driver is not moving towards pickup location"** accounting for **20.87%**, and **AC not working** accounting for **20.85%** of customer cancellations.
 * Customer-related operational issues were a recurring factor in driver cancellations.
 
 ## Business Recommendations
