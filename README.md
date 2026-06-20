@@ -7,7 +7,7 @@
 
 ## 📖 Project Overview
 
-This project analyzes **33.46K ride bookings** using **MySQL** and **Power BI** to uncover insights related to booking performance, revenue generation, customer behavior, vehicle utilization, cancellations, and service quality.
+This project analyzes **49.99K ride bookings** using **MySQL** and **Power BI** to uncover insights related to booking performance, revenue generation, customer behavior, vehicle utilization, cancellations, and service quality.
 
 The objective is to transform raw booking data into actionable business insights through data cleaning, SQL analysis, and interactive dashboarding.
 
