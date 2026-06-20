@@ -4,10 +4,10 @@
 
 ## Key Findings
 
-* Total bookings reached **33.46K rides** during the analysis period.
-* The platform generated **₹22.86M in booking value**.
-* **22.38K rides (66.87%)** were completed successfully.
-* Nearly **26.83% of all bookings were cancelled or remained incomplete**, highlighting operational inefficiencies.
+* Total bookings reached **49.99K rides** during the analysis period.
+* The platform generated **₹34.27M in booking value**.
+* **33.48K rides (66.97%)** were completed successfully.
+* Nearly **26.82% of all bookings were cancelled or remained incomplete**, highlighting operational inefficiencies.
 * Ride volume remained relatively stable throughout the period, averaging approximately **1.6K–1.8K bookings per day**.
 
 ## Business Recommendations
