@@ -88,18 +88,42 @@ This dashboard provides a centralized view of key business metrics to support da
 ## 📂 Repository Structure
 
 ```text
-ola-ride-booking-analysis/
+OLA-booking-analysis/
 │
-├── datasets/
-├── dashboard/
-├── screenshots/
-├── insights/
-├── sql/
-├── docs/
 ├── README.md
-└── LICENSE
-```
+├── LICENSE
+│
+├── images/
+│   └── banner.png
+│
+├── dataset/
+│   └── ola_bookings.csv
+│
+├── dashboard/
+│   ├── OLA_project.pbix
+│   └── OLA_project.pdf
+│
+├── screenshots/
+│   ├── overall.png
+│   ├── revenue.png
+│   ├── cancellation.png
+│   ├── vehicle_type.png
+│   └── ratings.png
+│
+├── insights/
+│   ├── insights_cancellation.md
+│   ├── insights_revenue.md
+│   ├── insights_cancellation.md
+│   ├── insights_vehicle_type.md
+│   └── insights_ratings.md
+│
+└── scripts/
+    ├──init_database.sql
+    ├── data_cleaning.sql
+    ├── business_questions_analysis.sql
+    └── testing_views.sql
 
+```
 ---
 
 ## 🛠️ Tools & Technologies
@@ -113,13 +137,22 @@ ola-ride-booking-analysis/
 
 ---
 
-## 🌱 About Me
+## 🌱 About Me✨
 
-Hi, I'm **Shraddha Bisht**.
-
-I'm passionate about Data Analytics, SQL, Power BI, and Business Intelligence. I enjoy building projects that transform raw data into meaningful business insights and support data-driven decision-making.
-
-If you found this project interesting, feel free to connect with me on LinkedIn.
+Hi there! I'm **Shraddha Bisht**. 
+Thanks for checking out this project! I'm passionate about Data Analytics, SQL, Power BI, and Data Engineering, and I regularly build projects to strengthen my skills and explore real-world data challenges.
 
 
-Feel free to connect with me and explore my other projects.
+## 💻 Tech Stack
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+[![DAX](https://img.shields.io/badge/DAX-0F6CBD?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/dax/)
+[![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://learn.microsoft.com/en-us/power-query/)
+[![Microsoft Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/microsoft-365/excel)
+
+
+### ☕ Stay Connected
+Let's stay in touch!
+If you found this project useful, feel free to connect with me on LinkedIn.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shraddha-bisht)
