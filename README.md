@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="Downloads/ola_banner.png" alt="OLA Ride Booking Analysis Banner" width="100%">
+  <img src="C:\Users\Shreya\Desktop\OLA_Project/ola_banner.png" alt="OLA Ride Booking Analysis Banner" width="100%">
 </p>
 
 # 🚖 Ola Ride Booking Analysis Dashboard | SQL + Power BI
