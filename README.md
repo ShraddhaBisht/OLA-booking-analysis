@@ -125,14 +125,7 @@ OLA-booking-analysis/
 
 ```
 ---
-
-## 🌱 About Me✨
-
-Hi there! I'm **Shraddha Bisht**. 
-Thanks for checking out this project! I'm passionate about Data Analytics, SQL, Power BI, and Data Engineering, and I regularly build projects to strengthen my skills and explore real-world data challenges.
-
-
-## 💻 Tech Stack
+## 💻 Tech Stack used for this repository
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
@@ -140,6 +133,12 @@ Thanks for checking out this project! I'm passionate about Data Analytics, SQL, 
 [![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://learn.microsoft.com/en-us/power-query/)
 [![Microsoft Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/microsoft-365/excel)
 
+---
+
+## 🌱 About Me✨
+
+Hi there! I'm **Shraddha Bisht**. 
+Thanks for checking out this project! I'm passionate about Data Analytics, SQL, Power BI, and Data Engineering, and I regularly build projects to strengthen my skills and explore real-world data challenges.
 
 ### ☕ Stay Connected
 Let's stay in touch!
