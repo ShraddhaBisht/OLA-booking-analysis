@@ -23,23 +23,21 @@ Usage:
 
 
 -- 1.  Retreive all successful bookings:
-IF OBJECT_ID('Successful_Bookings', 'V') IS NOT NULL
-    DROP VIEW Successful_Bookings;
-GO
+DROP VIEW IF EXISTS Successful_Bookings;
+
   
 CREATE VIEW Successful_Bookings AS
 SELECT
   *
 FROM bookings
 WHERE Booking_Status = "Success";
-GO
+
 
 -- ----------------------------------------------------------------------------------------------------------
 
 -- 2.  Find the average ride distance for each vehicle type:
-IF OBJECT_ID('Ride_distance_for_Each_vehicle', 'V') IS NOT NULL
-    DROP VIEW Ride_distance_for_Each_vehicle;
-GO
+DROP VIEW IF EXISTS Ride_distance_for_Each_vehicle;
+
   
 CREATE VIEW Ride_distance_for_Each_vehicle AS
 SELECT
@@ -47,58 +45,55 @@ SELECT
   AVG(Ride_Distance) as Avg_Distance 
 FROM bookings
 GROUP BY Vehicle_Type;
-GO
+
 
 -- ----------------------------------------------------------------------------------------------------------
 
 -- 3.  Get the total number of  canceled rides by customers:
-IF OBJECT_ID('Total_canceled_rides_by_cust', 'V') IS NOT NULL
-    DROP VIEW Total_canceled_rides_by_cust;
-GO
+DROP VIEW IF EXISTS Total_canceled_rides_by_cust;
+
 
 CREATE VIEW Total_canceled_rides_by_cust AS
 SELECT 
   COUNT(*) AS Total_Canceled_rides 
 FROM bookings
 WHERE Booking_Status = "Cancelled by Customer";
-GO
+
 
 -- ----------------------------------------------------------------------------------------------------------
 
 -- 4.  List the top 5 customers who booked the heighest number of rides:
-IF OBJECT_ID('Top_5_Customers', 'V') IS NOT NULL
-    DROP VIEW Top_5_Customers;
-GO
+DROP VIEW IF EXISTS Top_5_Customers;
+
   
 CREATE VIEW Top_5_Customers AS
-SELECT TOP 5 
+SELECT 
   Customer_ID,
   Count(Booking_ID) AS Total_Rides
 FROM bookings
 GROUP BY Customer_ID
-ORDER BY Total_Rides DESC;
-GO
+ORDER BY Total_Rides DESC
+LIMIT 5;
+
   
 -- ----------------------------------------------------------------------------------------------------------
 
 -- 4.  Get the number of rides canceled by drivers due to personal and car-related issues:
-IF OBJECT_ID('Canceled_by_Driver_PC_issues', 'V') IS NOT NULL
-    DROP VIEW Canceled_by_Driver_PC_issues;
-GO
+DROP VIEW IF EXISTS Canceled_by_Driver_PC_issues;
+
   
 CREATE VIEW Canceled_by_Driver_PC_issues AS
 SELECT 
   COUNT(*) 
 FROM bookings
 WHERE Reason_for_Cancelling_by_Driver iN ("Personal & Car related issues");
-GO
+
 
 -- ----------------------------------------------------------------------------------------------------------
 
-== 6.  Find the mximum and minimum driver ratings for prime Sedan bookings:
-IF OBJECT_ID('max_min_rating_for_Prime_Sedan', 'V') IS NOT NULL
-    DROP VIEW max_min_rating_for_Prime_Sedan;
-GO
+-- 6.  Find the mximum and minimum driver ratings for prime Sedan bookings:
+DROP VIEW IF EXISTS max_min_rating_for_Prime_Sedan;
+
   
 CREATE VIEW max_min_rating_for_Prime_Sedan AS
 SELECT
@@ -106,26 +101,24 @@ SELECT
   MIN(Driver_Rating) AS Min_Rating
 FROM bookings
 WHERE Vehicle_Type = "Prime Sedan";
-GO
+
 
 -- -----------------------------------------------------------------------------------------------------------
 
 -- 7.  Retreive all rides where payment was made usisng UPI:
-IF OBJECT_ID('UPI_Payments', 'V') IS NOT NULL
-    DROP VIEW UPI_Payments;
-GO
+DROP VIEW IF EXISTS UPI_Payments;
+
   
 CREATE VIEW UPI_Payments AS
 SELECT * FROM bookings
 WHERE Payment_Method = "UPI";
-GO
+
 
 -- -----------------------------------------------------------------------------------------------------------
 
 -- 8.  Find the average customer rating per vehicl type:
-IF OBJECT_ID('AVG_customer_rating_vehicletype', 'V') IS NOT NULL
-    DROP VIEW AVG_customer_rating_vehicletype;
-GO
+DROP VIEW IF EXISTS AVG_customer_rating_vehicletype;
+
   
 CREATE VIEW AVG_customer_rating_vehicletype AS
 SELECT
@@ -133,28 +126,25 @@ SELECT
   AVG(Customer_Rating) AS Avg_Customer_Rating
 FROM bookings
 GROUP BY Vehicle_Type;
-GO
+
 
 -- -----------------------------------------------------------------------------------------------------------
 
 -- 9.  Calculate the total booking value of rides completed successfully:
-IF OBJECT_ID('Total_SuccessfulRide_Value', 'V') IS NOT NULL
-    DROP VIEW Total_SuccessfulRide_Value;
-GO
+DROP VIEW IF EXISTS Total_SuccessfulRide_Value;
+
   
 CREATE VIEW Total_SuccessfulRide_Value AS
 SELECT
   SUM(Booking_Value) AS Total_Booking_Value
 FROM bookings
 WHERE Booking_Status = "Success";
-GO
+
 
 -- -----------------------------------------------------------------------------------------------------------
 
 #10.  List all the incompelte rides along with reason:
-IF OBJECT_ID('Incomplete_Rides', 'V') IS NOT NULL
-    DROP VIEW Incomplete_Rides;
-GO
+DROP VIEW IF EXISTS Incomplete_Rides;
   
 CREATE VIEW Incomplete_Rides AS
 SELECT 
@@ -162,6 +152,6 @@ SELECT
   Incomplete_Rides_Reason
 FROM bookings
 WHERE Incomplete_Rides = 1;
-GO
+
 
 -- -----------------------------------------------------------------------------------------------------------
