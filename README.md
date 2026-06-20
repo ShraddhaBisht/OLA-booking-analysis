@@ -27,14 +27,16 @@ This dashboard provides a centralized view of key business metrics to support da
 
 ---
 
-## 🛠️ Tools & Technologies
+## Dashboard Preview
 
-* MySQL
-* Power BI
-* DAX
-* Power Query
-* Data Visualization
-* Data Analysis
+![OLA Dashboard](screenshots/overall.png)
+## 📌 Dashboard Pages
+
+* Overall Performance
+* Vehicle Type Analysis
+* Revenue Analysis
+* Cancellation Analysis
+* Ratings Analysis
 
 ---
 
@@ -100,13 +102,14 @@ ola-ride-booking-analysis/
 
 ---
 
-## 📌 Dashboard Pages
+## 🛠️ Tools & Technologies
 
-* Overall Performance
-* Vehicle Type Analysis
-* Revenue Analysis
-* Cancellation Analysis
-* Ratings Analysis
+* MySQL
+* Power BI
+* DAX
+* Power Query
+* Data Visualization
+* Data Analysis
 
 ---
 
