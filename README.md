@@ -44,11 +44,11 @@ This dashboard provides a centralized view of key business metrics to support da
 
 | KPI                    | Value   |
 | ---------------------- | ------- |
-| Total Bookings         | 33.46K  |
-| Total Booking Value    | ₹22.86M |
-| Successful Bookings    | 22.38K  |
-| Cancellation Rate      | 26.83%  |
-| Top 5 Customer Revenue | ₹18.92K |
+| Total Bookings         | 49.99K  |
+| Total Booking Value    | ₹34.27M |
+| Successful Bookings    | 33.48K  |
+| Cancellation Rate      | 26.82%  |
+| Top 5 Customer Revenue | ₹21.07K |
 | Average Ratings        | 4.0 / 5 |
 
 ---
@@ -57,25 +57,25 @@ This dashboard provides a centralized view of key business metrics to support da
 
 ### Booking Performance
 
-* Successfully completed rides accounted for **66.87%** of all bookings.
+* Successfully completed rides accounted for **66.97%** of all bookings.
 * Daily ride volume remained stable at approximately **1.6K–1.8K rides per day**.
 
 ### Vehicle Performance
 
-* **Bike** and **Prime Sedan** generated the highest booking value at approximately **₹3.33M** each.
+* **Bike** generated the highest booking value at approximately **₹4.96M** each.
 * Average ride distance remained consistent across vehicle categories at approximately **25 km**.
 
 ### Revenue Analysis
 
-* Total booking revenue reached **₹22.86M**.
-* The highest spending customer generated **₹3,929** in booking value.
-* Top 5 customers contributed **₹18,919** in revenue.
+* Total booking revenue reached **₹34.27M**.
+* The highest spending customer generated **₹5,078** in booking value.
+* Top 5 customers contributed **₹21,072** in revenue.
 
 ### Cancellation Analysis
 
-* Approximately **8.98K rides** were cancelled.
-* Overall cancellation rate reached **26.83%**.
-* The leading customer cancellation reason was **Driver not moving toward pickup location**.
+* Approximately **13.41K rides** were cancelled.
+* Overall cancellation rate reached **26.832%**.
+* The leading customer cancellation reason was **Driver not moving toward pickup location** and **AC not working**
 * The leading driver cancellation reason was **More than permitted passengers**.
 
 ### Customer Experience
