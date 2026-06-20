@@ -101,13 +101,13 @@ OLA-booking-analysis/
 │
 ├── dashboard/
 │   ├── OLA_project.pbix
-│   └── OLA_project.pdf
+│   └── OLA_Bookings.pdf
 │
 ├── screenshots/
-│   ├── overall.png
-│   ├── revenue.png
-│   ├── cancellation.png
-│   ├── vehicle_type.png
+│   ├── Overall.png
+│   ├── Revenue.png
+│   ├── Cancellation.png
+│   ├── Vehicle_type.png
 │   └── ratings.png
 │
 ├── insights/
