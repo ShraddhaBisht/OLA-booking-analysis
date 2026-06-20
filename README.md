@@ -29,7 +29,7 @@ This dashboard provides a centralized view of key business metrics to support da
 
 ## Dashboard Preview
 
-![OLA Dashboard](screenshots/overall.png)
+![OLA Dashboard](screenshots/Overall.png)
 ## 📌 Dashboard Pages
 
 * Overall Performance
