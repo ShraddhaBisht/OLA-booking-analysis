@@ -6,8 +6,8 @@
 
 * Revenue was distributed across multiple payment methods, indicating healthy payment diversification.
 * Digital payment methods (UPI, Wallet, and Card) collectively contributed a significant share of total revenue.
-* The top 5 customers generated **₹18,918.73** in booking value.
-* The highest spending customer contributed **₹3,929.33** in booking revenue.
+* The top 5 customers generated **₹21,072.17** in booking value.
+* The highest spending customer contributed **₹5,078.20** in booking revenue.
 * Ride distance trends remained stable throughout the analysis period, supporting consistent revenue generation.
 
 ## Business Recommendations
