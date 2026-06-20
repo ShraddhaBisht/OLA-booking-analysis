@@ -126,17 +126,6 @@ OLA-booking-analysis/
 ```
 ---
 
-## 🛠️ Tools & Technologies
-
-* MySQL
-* Power BI
-* DAX
-* Power Query
-* Data Visualization
-* Data Analysis
-
----
-
 ## 🌱 About Me✨
 
 Hi there! I'm **Shraddha Bisht**. 
