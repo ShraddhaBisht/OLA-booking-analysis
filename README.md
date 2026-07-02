@@ -84,7 +84,6 @@ This dashboard provides a centralized view of key business metrics to support da
 * Average ratings were maintained at approximately **4.0/5**, indicating strong service quality.
 
 ---
-
 ## 📂 Repository Structure
 
 ```text
