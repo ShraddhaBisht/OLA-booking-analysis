@@ -132,7 +132,6 @@ OLA-booking-analysis/
 [![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://learn.microsoft.com/en-us/power-query/)
 
 ---
-
 ## 🌱 About Me✨
 
 Hi there! I'm **Shraddha Bisht**. 
